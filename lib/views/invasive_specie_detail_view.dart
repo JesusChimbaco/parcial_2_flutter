@@ -125,7 +125,8 @@ class _InvasiveSpecieDetailViewState extends State<InvasiveSpecieDetailView> {
         elevation: 0,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
-          onPressed: () => context.pop(),
+          onPressed: () => Navigator.pop(context),
+          tooltip: 'Volver',
         ),
         actions: [
           IconButton(

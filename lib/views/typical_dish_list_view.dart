@@ -97,7 +97,7 @@ class _TypicalDishListViewState extends State<TypicalDishListView> {
         title: const Text('Platos Típicos'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         leading: IconButton(
-          icon: const Icon(Icons.home),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () => context.go('/'),
           tooltip: 'Volver al Dashboard',
         ),

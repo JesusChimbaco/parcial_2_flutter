@@ -80,7 +80,7 @@ class _RegionListViewState extends State<RegionListView> {
         title: const Text('Regiones de Colombia'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         leading: IconButton(
-          icon: const Icon(Icons.home),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () => context.go('/'),
           tooltip: 'Volver al Dashboard',
         ),

@@ -124,7 +124,7 @@ class _NaturalAreaListViewState extends State<NaturalAreaListView> {
         title: const Text('Áreas Naturales'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         leading: IconButton(
-          icon: const Icon(Icons.home),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () => context.go('/'),
           tooltip: 'Volver al Dashboard',
         ),

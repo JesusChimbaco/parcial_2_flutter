@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../views/dashboard_view.dart';
+import '../views/main_layout.dart';
 import '../views/typical_dish_list_view.dart';
 import '../views/typical_dish_detail_view.dart';
 import '../views/natural_area_list_view.dart';
@@ -14,11 +14,11 @@ class AppRouter {
   static final GoRouter router = GoRouter(
     initialLocation: '/',
     routes: [
-      // Dashboard Route
+      // Main Layout with Navigation Bar
       GoRoute(
         path: '/',
-        name: 'dashboard',
-        builder: (context, state) => const DashboardView(),
+        name: 'main',
+        builder: (context, state) => const MainLayout(),
       ),
       
       // Typical Dish Routes
