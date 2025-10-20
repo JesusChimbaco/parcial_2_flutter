@@ -1,30 +1,4 @@
 
-Respuesta President
-{
-    "id": 3,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rafael_Nunez.JPG",
-    "name": "Rafael",
-    "lastName": "Nuñez Moledo",
-    "startPeriodDate": "1887-06-04",
-    "endPeriodDate": "1888-08-07",
-    "politicalParty": "Partido nacional",
-    "description": "Rafael Wenceslao Núñez Moledo (Cartagena, 28 de septiembre de 1825-Ib., 18 de septiembre de 1894) fue un abogado, periodista, escritor, político y militar colombiano, antiguo miembro del Partido Liberal Colombiano y luego líder del Partido Nacional. Primero como liberal moderado y luego como líder de una coalición bipartidista, Núñez fue a nombre propio presidente del país en 4 ocasiones, y fue clave para el ascenso político de figuras como Miguel Antonio Caro, Carlos Holguín, Eliseo Payán, Francisco Javier Zaldúa, entre otros importantes personajes. También fue clave para el regreso de los conservadores al poder, en lo que se conoció como hegemonía conservadora.",
-    "cityId": 210,
-    "city": null
-  },
-  {
-    "id": 4,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Carlos-holguin-Mallarino.jpg",
-    "name": "Carlos",
-    "lastName": "Holguín Mallarino",
-    "startPeriodDate": "1888-08-07",
-    "endPeriodDate": "1892-08-07",
-    "politicalParty": "Partido nacional",
-    "description": "Carlos Holguín Mallarino (Nóvita, Chocó, 11 de julio de 1832-Bogotá, 19 de octubre de 1894) fue un abogado, empresario, diplomático, político, periodista y militar colombiano, miembro del Partido Conservador Colombiano. Previamente a su presidencia Holguín había destacado como periodista. En Cali creó el periódico El Caucano (1857). En Bogotá colaboró con la redacción de La Prensa. Igualmente fue un asiduo colaborador de los periódicos conservadores de la capital, El Conservador, El Filotémico, El Porvenir y El Tradicionista entre otros. Además escribió numerosos sonetos y escritos en periódicos y revistas. En sus escritos fue sarcástico, irónico, polemista y crítico.",
-    "cityId": 482,
-    "city": null
-  }
-
 Respuesta TypicalDish
   {
     "id": 1,
@@ -70,56 +44,25 @@ Respuesta NaturalArea
     "categoryNaturalArea": null
   }
 
-Respuesta Airport
+Respuesta InvasiveSpecie
 
-  {
-    "id": 45,
-    "name": "Base Aérea BG. Arturo Lema Posada",
-    "iataCode": "N/A",
-    "oaciCode": "N/A",
-    "type": "Militar",
-    "deparmentId": 2,
-    "department": {
-      "id": 2,
-      "name": "Antioquia",
-      "description": "Antioquia es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Medellín, la segunda ciudad más poblada del país. Está ubicado al noroccidente colombiano, en las regiones Andina y Caribe, limitando al norte con el mar Caribe (océano Atlántico), Córdoba y Bolívar, al este con Santander y Boyacá, al sur con Caldas y Risaralda, y al oeste con Chocó. Con unos 6 500 000 habitantes en 2015 es el departamento más poblado, y con 63 600 km², el sexto más extenso, superado por Amazonas, Vichada, Caquetá, Meta y Guainía.",
-      "cityCapitalId": 12,
-      "municipalities": 125,
-      "surface": 63612,
-      "population": 6887306,
-      "phonePrefix": "4",
-      "countryId": 1,
-      "cityCapital": null,
-      "country": null,
-      "cities": null,
-      "regionId": 5,
-      "region": null,
-      "naturalAreas": null,
-      "maps": null,
-      "indigenousReservations": null,
-      "airports": [
-        null
-      ]
-    },
-    "cityId": 91,
-    "city": {
-      "id": 91,
-      "name": "Rionegro",
-      "description": "Rionegro es un municipio de Colombia, ubicado en el departamento de Antioquia. Está localizado en el valle de San Nicolás o también llamado Altiplano del Oriente, en la subregión Oriente, siendo la ciudad con mayor población y la que concentra el movimiento económico de la subregión. Está ubicada a tan solo 35 minutos de Medellín, capital del departamento, gracias al túnel de interconexión Aburrá-Oriente. Su nombre oficial es Ciudad Santiago de Arma de Rionegro.",
-      "surface": 196,
-      "population": 135465,
-      "postalCode": "54040",
-      "departmentId": 2,
-      "department": null,
-      "touristAttractions": null,
-      "presidents": null,
-      "indigenousReservations": null,
-      "airports": [
-        null
-      ],
-      "radios": null
-    },
-    "latitude": -75.42037792,
-    "longitude": 6.166336066
+ {
+    "id": 1,
+    "name": "Acacia negra, gris",
+    "scientificName": "Acacia decurrens Willd",
+    "commonNames": "acacia ceniza, acacia",
+    "impact": "Esta especie forma periódicamente capas de hojarasca en el suelo que detiene o desvían procesos sucesionales, inhibiendo la expresión de bancos de semillas y limitando la oferta de recursos, lo que genera una exclusión de la flora y fauna nativa, además de alteraciones edáficas e hidrológicas que en conjunto no permiten la dinamización de los procesos funcionales de los ecosistemas",
+    "manage": "A pesar de que la especie presenta una alta producción de semillas y tasa de germinación, un alto porcentaje de plántulas no sobreviven hasta llegar a individuos jóvenes, por lo que se recomiendan intervenciones de control enfocadas en las plántulas exitosas, con el fin de disminuir costos en los recursos usados para este fin",
+    "riskLevel": 2,
+    "urlImage": "https://apicolombiastorage.blob.core.windows.net/invasivespecies/1- Acacia negra, gris.png"
+  }
+
+Respuesta Region
+
+{
+    "id": 1,
+    "name": "Caribe",
+    "description": "La región caribe es una de las regiones más importantes del territorio Colombiano, en sus costas hospeda la formación montañosa más grande del mundo: La Sierra Nevada de Santa Marta y el Parque Natural del Tayrona. Además de ser un lugar con suma importancia para la producción pesquera y una serie de puertos conectados con todo el país por el mar Caribe.",
+    "departments": null
   }
  

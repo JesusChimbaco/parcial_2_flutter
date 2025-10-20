@@ -60,6 +60,11 @@ class _TypicalDishDetailViewState extends State<TypicalDishDetailView> {
       appBar: AppBar(
         title: Text(_dish?.name ?? 'Plato Típico'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+          tooltip: 'Volver',
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.list),
