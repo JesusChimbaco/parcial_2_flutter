@@ -60,6 +60,11 @@ class _NaturalAreaDetailViewState extends State<NaturalAreaDetailView> {
       appBar: AppBar(
         title: Text(_area?.name ?? 'Área Natural'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () => Navigator.pop(context),
+          tooltip: 'Volver',
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.list),

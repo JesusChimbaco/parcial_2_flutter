@@ -162,7 +162,7 @@ class _InvasiveSpecieListViewState extends State<InvasiveSpecieListView> {
         backgroundColor: theme.colorScheme.surfaceContainer,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.home),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () => context.go('/'),
           tooltip: 'Volver al Dashboard',
         ),
